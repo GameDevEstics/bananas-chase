@@ -3,8 +3,9 @@
 [ext_resource path="res://sprites/Perso/Player.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 7.68657, 6.36636 )
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id=2]
 resource_name = "DeplBas"
 length = 0.4
 tracks/0/type = "value"
@@ -17,11 +18,10 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ 19, 20, 21, 22, 21 ]
+"values": [ 21, 20, 21, 22, 21 ]
 }
 
-[sub_resource type="Animation" id=2]
-resource_name = "DeplDroite"
+[sub_resource type="Animation" id=3]
 length = 0.4
 tracks/0/type = "value"
 tracks/0/path = NodePath("SpritePerso:frame")
@@ -36,8 +36,7 @@ tracks/0/keys = {
 "values": [ 1, 2, 3, 4, 0 ]
 }
 
-[sub_resource type="Animation" id=3]
-resource_name = "DeplGauche"
+[sub_resource type="Animation" id=4]
 length = 0.4
 tracks/0/type = "value"
 tracks/0/path = NodePath("SpritePerso:frame")
@@ -69,6 +68,7 @@ tracks/0/keys = {
 }
 
 [node name="Perso" type="KinematicBody2D"]
+position = Vector2( 4.8695, -1.49831 )
 scale = Vector2( 2, 2 )
 __meta__ = {
 "_edit_group_": true
@@ -80,12 +80,14 @@ scale = Vector2( 1, 1.25 )
 shape = SubResource( 1 )
 
 [node name="SpritePerso" type="Sprite" parent="."]
+position = Vector2( -2.12132, 0.707108 )
+scale = Vector2( 0.7, 0.7 )
 texture = ExtResource( 1 )
 hframes = 60
-frame = 10
+frame = 21
 
 [node name="AnimPerso" type="AnimationPlayer" parent="."]
-anims/DeplBas = SubResource( 4 )
-anims/DeplDroite = SubResource( 2 )
-anims/DeplGauche = SubResource( 3 )
+anims/DeplBas = SubResource( 2 )
+anims/DeplDroite = SubResource( 3 )
+anims/DeplGauche = SubResource( 4 )
 anims/DeplHaut = SubResource( 5 )
