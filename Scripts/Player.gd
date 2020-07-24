@@ -14,7 +14,8 @@ var velocity = Vector2.ZERO
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	position.x = 32
+	position.y = 64
 
 func _physics_process(delta):
 	var input_vector = Vector2.ZERO
