@@ -10,5 +10,5 @@
 
 [node name="Perso" parent="." instance=ExtResource( 3 )]
 position = Vector2( 352, 175 )
-scale = Vector2( 1.8, 1.8 )
+scale = Vector2( 1.5, 1.5 )
 script = ExtResource( 2 )
