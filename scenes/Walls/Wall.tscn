@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://sprites/map/wall.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 3.99314, 3.96484 )
+
+[node name="Wall" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="StaticBody2D"]
+scale = Vector2( 0.166, 0.166 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}

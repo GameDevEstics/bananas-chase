@@ -1,0 +1,1086 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scenes/Walls/WallV.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/Maps/Map.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Walls/WallH.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/Ways/WayH.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/Ways/WayV.tscn" type="PackedScene" id=5]
+
+
+[node name="Map1" type="Node2D"]
+
+[node name="Map" parent="." instance=ExtResource( 2 )]
+
+[node name="WaysHPart1" type="Node2D" parent="."]
+
+[node name="WayH" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 32, 92 )
+
+[node name="WayH2" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 32, 148 )
+
+[node name="WayH3" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 32, 204 )
+
+[node name="WayH4" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 32, 260 )
+
+[node name="WayH5" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 32, 372 )
+
+[node name="WayH6" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 32, 428 )
+
+[node name="WayH7" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 32, 484 )
+
+[node name="WayH8" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 32, 540 )
+
+[node name="WayH9" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 88, 92 )
+
+[node name="WayH10" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 88, 148 )
+
+[node name="WayH11" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 88, 204 )
+
+[node name="WayH12" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 88, 428 )
+
+[node name="WayH13" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 88, 484 )
+
+[node name="WayH14" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 88, 540 )
+
+[node name="WayH15" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 144, 428 )
+
+[node name="WayH16" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 144, 484 )
+
+[node name="WayH17" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 144, 540 )
+
+[node name="WayH18" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 144, 372 )
+
+[node name="WayH19" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 312, 92 )
+
+[node name="WayH20" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 368, 92 )
+
+[node name="WayH21" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 424, 92 )
+
+[node name="WayH22" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 480, 92 )
+
+[node name="WayH23" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 144, 204 )
+
+[node name="WayH24" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 144, 260 )
+
+[node name="WayH25" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 200, 260 )
+
+[node name="WayH26" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 256, 372 )
+
+[node name="WayH27" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 200, 372 )
+
+[node name="WayH28" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 200, 428 )
+
+[node name="WayH29" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 200, 484 )
+
+[node name="WayH30" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 200, 540 )
+
+[node name="WayH31" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 256, 428 )
+
+[node name="WayH32" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 256, 484 )
+
+[node name="WayH33" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 256, 540 )
+
+[node name="WayH34" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 312, 316 )
+
+[node name="WayH35" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 312, 372 )
+
+[node name="WayH36" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 312, 428 )
+
+[node name="WayH37" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 312, 484 )
+
+[node name="WayH38" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 312, 540 )
+
+[node name="WayH39" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 368, 540 )
+
+[node name="WayH40" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 368, 428 )
+
+[node name="WayH41" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 368, 316 )
+
+[node name="WayH42" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 424, 204 )
+
+[node name="WayH43" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 480, 372 )
+
+[node name="WayH44" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 480, 316 )
+
+[node name="WayH45" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 480, 204 )
+
+[node name="WayH46" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 480, 148 )
+
+[node name="WayH47" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 368, 260 )
+
+[node name="WayH48" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 88, 316 )
+
+[node name="WaysHPart2" type="Node2D" parent="."]
+position = Vector2( 1016, 632 )
+rotation = 3.14212
+
+[node name="WayH" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 32, 92 )
+
+[node name="WayH2" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 32, 148 )
+
+[node name="WayH3" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 32, 204 )
+
+[node name="WayH4" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 32, 260 )
+
+[node name="WayH5" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 32, 372 )
+
+[node name="WayH6" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 32, 428 )
+
+[node name="WayH7" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 32, 484 )
+
+[node name="WayH8" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 32, 540 )
+
+[node name="WayH9" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 88, 92 )
+
+[node name="WayH10" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 88, 148 )
+
+[node name="WayH11" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 88, 204 )
+
+[node name="WayH12" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 88, 428 )
+
+[node name="WayH13" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 88, 484 )
+
+[node name="WayH14" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 88, 540 )
+
+[node name="WayH15" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 144, 428 )
+
+[node name="WayH16" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 144, 484 )
+
+[node name="WayH17" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 144, 540 )
+
+[node name="WayH18" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 144, 372 )
+
+[node name="WayH19" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 312, 92 )
+
+[node name="WayH20" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 368, 92 )
+
+[node name="WayH21" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 424, 92 )
+
+[node name="WayH22" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 480, 92 )
+
+[node name="WayH23" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 144, 204 )
+
+[node name="WayH24" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 144, 260 )
+
+[node name="WayH25" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 200, 260 )
+
+[node name="WayH26" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 256, 372 )
+
+[node name="WayH27" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 200, 372 )
+
+[node name="WayH28" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 200, 428 )
+
+[node name="WayH29" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 200, 484 )
+
+[node name="WayH30" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 200, 540 )
+
+[node name="WayH31" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 256, 428 )
+
+[node name="WayH32" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 256, 484 )
+
+[node name="WayH33" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 256, 540 )
+
+[node name="WayH34" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 312, 316 )
+
+[node name="WayH35" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 312, 372 )
+
+[node name="WayH36" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 312, 428 )
+
+[node name="WayH37" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 312, 484 )
+
+[node name="WayH38" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 312, 540 )
+
+[node name="WayH39" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 368, 540 )
+
+[node name="WayH40" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 368, 428 )
+
+[node name="WayH41" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 368, 316 )
+
+[node name="WayH42" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 424, 204 )
+
+[node name="WayH43" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 480, 372 )
+
+[node name="WayH44" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 480, 316 )
+
+[node name="WayH45" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 480, 204 )
+
+[node name="WayH46" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 480, 148 )
+
+[node name="WayH47" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 368, 260 )
+
+[node name="WayH48" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 88, 316 )
+
+[node name="WaysVPart1" type="Node2D" parent="."]
+
+[node name="WayV" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 60, 232 )
+
+[node name="WayV2" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 60, 288 )
+
+[node name="WayV3" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 60, 344 )
+
+[node name="WayV4" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 60, 568 )
+
+[node name="WayV5" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 116, 456 )
+
+[node name="WayV6" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 116, 344 )
+
+[node name="WayV7" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 116, 288 )
+
+[node name="WayV8" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 116, 64 )
+
+[node name="WayV9" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 172, 64 )
+
+[node name="WayV10" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 228, 64 )
+
+[node name="WayV11" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 116, 120 )
+
+[node name="WayV12" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 172, 120 )
+
+[node name="WayV13" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 228, 120 )
+
+[node name="WayV14" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 284, 120 )
+
+[node name="WayV15" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 340, 64 )
+
+[node name="WayV16" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 396, 120 )
+
+[node name="WayV17" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 452, 64 )
+
+[node name="WayV18" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 172, 176 )
+
+[node name="WayV19" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 228, 176 )
+
+[node name="WayV20" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 284, 176 )
+
+[node name="WayV21" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 340, 176 )
+
+[node name="WayV22" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 396, 176 )
+
+[node name="WayV23" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 172, 288 )
+
+[node name="WayV24" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 228, 232 )
+
+[node name="WayV25" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 284, 232 )
+
+[node name="WayV26" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 340, 232 )
+
+[node name="WayV27" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 396, 232 )
+
+[node name="WayV28" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 228, 288 )
+
+[node name="WayV29" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 172, 344 )
+
+[node name="WayV30" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 172, 512 )
+
+[node name="WayV31" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 228, 456 )
+
+[node name="WayV32" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 228, 568 )
+
+[node name="WayV33" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 284, 288 )
+
+[node name="WayV34" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 284, 568 )
+
+[node name="WayV35" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 284, 400 )
+
+[node name="WayV36" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 340, 400 )
+
+[node name="WayV37" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 396, 400 )
+
+[node name="WayV38" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 452, 400 )
+
+[node name="WayV39" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 508, 400 )
+
+[node name="WayV40" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 508, 120 )
+
+[node name="WayV42" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 396, 568 )
+
+[node name="WayV43" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 452, 568 )
+
+[node name="WayV48" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 396, 456 )
+
+[node name="WayV49" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 452, 456 )
+
+[node name="WayV52" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 452, 512 )
+
+[node name="WayV53" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 396, 512 )
+
+[node name="WayV54" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 452, 232 )
+
+[node name="WayV55" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 396, 288 )
+
+[node name="WayV56" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 452, 288 )
+
+[node name="WayV57" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 452, 344 )
+
+[node name="WayV58" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 396, 344 )
+
+[node name="WayV59" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 508, 288 )
+
+[node name="WayV60" parent="WaysVPart1" instance=ExtResource( 5 )]
+position = Vector2( 508, 344 )
+
+[node name="WaysVPart2" type="Node2D" parent="."]
+position = Vector2( 1016, 632 )
+rotation = 3.14159
+
+[node name="WayV" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 60, 232 )
+
+[node name="WayV2" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 60, 288 )
+
+[node name="WayV3" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 60, 344 )
+
+[node name="WayV4" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 60, 568 )
+
+[node name="WayV5" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 116, 456 )
+
+[node name="WayV6" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 116, 344 )
+
+[node name="WayV7" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 116, 288 )
+
+[node name="WayV8" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 116, 64 )
+
+[node name="WayV9" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 172, 64 )
+
+[node name="WayV10" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 228, 64 )
+
+[node name="WayV11" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 116, 120 )
+
+[node name="WayV12" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 172, 120 )
+
+[node name="WayV13" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 228, 120 )
+
+[node name="WayV14" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 284, 120 )
+
+[node name="WayV15" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 340, 64 )
+
+[node name="WayV16" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 396, 120 )
+
+[node name="WayV17" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 452, 64 )
+
+[node name="WayV18" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 172, 176 )
+
+[node name="WayV19" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 228, 176 )
+
+[node name="WayV20" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 284, 176 )
+
+[node name="WayV21" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 340, 176 )
+
+[node name="WayV22" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 396, 176 )
+
+[node name="WayV23" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 172, 288 )
+
+[node name="WayV24" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 228, 232 )
+
+[node name="WayV25" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 284, 232 )
+
+[node name="WayV26" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 340, 232 )
+
+[node name="WayV27" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 396, 232 )
+
+[node name="WayV28" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 228, 288 )
+
+[node name="WayV29" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 172, 344 )
+
+[node name="WayV30" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 172, 512 )
+
+[node name="WayV31" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 228, 456 )
+
+[node name="WayV32" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 228, 568 )
+
+[node name="WayV33" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 284, 288 )
+
+[node name="WayV34" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 284, 568 )
+
+[node name="WayV35" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 284, 400 )
+
+[node name="WayV36" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 340, 400 )
+
+[node name="WayV37" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 396, 400 )
+
+[node name="WayV38" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 452, 400 )
+
+[node name="WayV39" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 508, 400 )
+
+[node name="WayV40" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 508, 120 )
+
+[node name="WayV42" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 396, 568 )
+
+[node name="WayV43" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 452, 568 )
+
+[node name="WayV48" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 396, 456 )
+
+[node name="WayV49" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 452, 456 )
+
+[node name="WayV52" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 452, 512 )
+
+[node name="WayV53" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 396, 512 )
+
+[node name="WayV54" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 452, 232 )
+
+[node name="WayV55" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 396, 288 )
+
+[node name="WayV56" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 452, 288 )
+
+[node name="WayV57" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 452, 344 )
+
+[node name="WayV58" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 396, 344 )
+
+[node name="WayV59" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 508, 288 )
+
+[node name="WayV60" parent="WaysVPart2" instance=ExtResource( 5 )]
+position = Vector2( 508, 344 )
+
+[node name="WallsHPart1" type="Node2D" parent="."]
+
+[node name="WallH" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 32, 316 )
+
+[node name="WallH3" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 144, 316 )
+
+[node name="WallH4" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 200, 316 )
+
+[node name="WallH5" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 88, 260 )
+
+[node name="WallH6" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 144, 92 )
+
+[node name="WallH7" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 200, 92 )
+
+[node name="WallH8" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 256, 92 )
+
+[node name="WallH9" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 88, 372 )
+
+[node name="WallH10" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 144, 148 )
+
+[node name="WallH11" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 200, 148 )
+
+[node name="WallH12" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 256, 148 )
+
+[node name="WallH13" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 312, 148 )
+
+[node name="WallH14" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 368, 148 )
+
+[node name="WallH15" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 424, 148 )
+
+[node name="WallH16" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 200, 204 )
+
+[node name="WallH17" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 256, 204 )
+
+[node name="WallH18" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 312, 204 )
+
+[node name="WallH19" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 368, 204 )
+
+[node name="WallH20" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 256, 260 )
+
+[node name="WallH21" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 312, 260 )
+
+[node name="WallH23" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 256, 316 )
+
+[node name="WallH24" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 368, 484 )
+
+[node name="WallH25" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 424, 428 )
+
+[node name="WallH26" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 480, 428 )
+
+[node name="WallH28" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 480, 484 )
+
+[node name="WallH29" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 424, 484 )
+
+[node name="WallH30" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 424, 540 )
+
+[node name="WallH31" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 480, 540 )
+
+[node name="WallH33" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 368, 372 )
+
+[node name="WallH34" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 424, 372 )
+
+[node name="WallH35" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 424, 316 )
+
+[node name="WallH36" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 424, 260 )
+
+[node name="WallH37" parent="WallsHPart1" instance=ExtResource( 3 )]
+position = Vector2( 480, 260 )
+
+[node name="WallsHPart2" type="Node2D" parent="."]
+position = Vector2( 1016, 632 )
+rotation = 3.14159
+
+[node name="WallH" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 32, 316 )
+
+[node name="WallH3" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 144, 316 )
+
+[node name="WallH4" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 200, 316 )
+
+[node name="WallH5" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 88, 260 )
+
+[node name="WallH6" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 144, 92 )
+
+[node name="WallH7" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 200, 92 )
+
+[node name="WallH8" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 256, 92 )
+
+[node name="WallH9" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 88, 372 )
+
+[node name="WallH10" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 144, 148 )
+
+[node name="WallH11" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 200, 148 )
+
+[node name="WallH12" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 256, 148 )
+
+[node name="WallH13" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 312, 148 )
+
+[node name="WallH14" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 368, 148 )
+
+[node name="WallH15" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 424, 148 )
+
+[node name="WallH16" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 200, 204 )
+
+[node name="WallH17" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 256, 204 )
+
+[node name="WallH18" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 312, 204 )
+
+[node name="WallH19" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 368, 204 )
+
+[node name="WallH20" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 256, 260 )
+
+[node name="WallH21" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 312, 260 )
+
+[node name="WallH23" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 256, 316 )
+
+[node name="WallH24" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 368, 484 )
+
+[node name="WallH25" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 424, 428 )
+
+[node name="WallH26" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 480, 428 )
+
+[node name="WallH28" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 480, 484 )
+
+[node name="WallH29" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 424, 484 )
+
+[node name="WallH30" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 424, 540 )
+
+[node name="WallH31" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 480, 540 )
+
+[node name="WallH33" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 368, 372 )
+
+[node name="WallH34" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 424, 372 )
+
+[node name="WallH35" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 424, 316 )
+
+[node name="WallH36" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 424, 260 )
+
+[node name="WallH37" parent="WallsHPart2" instance=ExtResource( 3 )]
+position = Vector2( 480, 260 )
+
+[node name="WallsVPart1" type="Node2D" parent="."]
+
+[node name="WallV" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 60, 64 )
+
+[node name="WallV2" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 60, 120 )
+
+[node name="WallV3" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 60, 176 )
+
+[node name="WallV4" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 116, 232 )
+
+[node name="WallV5" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 116, 176 )
+
+[node name="WallV6" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 284, 64 )
+
+[node name="WallV7" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 340, 120 )
+
+[node name="WallV8" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 396, 64 )
+
+[node name="WallV9" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 452, 120 )
+
+[node name="WallV10" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 60, 400 )
+
+[node name="WallV11" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 60, 456 )
+
+[node name="WallV12" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 60, 512 )
+
+[node name="WallV13" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 116, 400 )
+
+[node name="WallV14" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 116, 512 )
+
+[node name="WallV15" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 116, 568 )
+
+[node name="WallV16" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 508, 120 )
+
+[node name="WallV17" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 508, 176 )
+
+[node name="WallV18" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 508, 232 )
+
+[node name="WallV19" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 508, 400 )
+
+[node name="WallV20" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 508, 456 )
+
+[node name="WallV21" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 508, 512 )
+
+[node name="WallV22" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 508, 568 )
+
+[node name="WallV23" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 172, 232 )
+
+[node name="WallV24" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 172, 400 )
+
+[node name="WallV25" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 172, 456 )
+
+[node name="WallV26" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 172, 568 )
+
+[node name="WallV27" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 228, 344 )
+
+[node name="WallV28" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 228, 400 )
+
+[node name="WallV29" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 228, 512 )
+
+[node name="WallV30" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 228, 456 )
+
+[node name="WallV31" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 284, 344 )
+
+[node name="WallV32" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 284, 512 )
+
+[node name="WallV33" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 284, 456 )
+
+[node name="WallV34" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 340, 288 )
+
+[node name="WallV35" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 340, 344 )
+
+[node name="WallV36" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 340, 456 )
+
+[node name="WallV37" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 340, 512 )
+
+[node name="WallV38" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 340, 568 )
+
+[node name="WallV39" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 508, 64 )
+
+[node name="WallV40" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 452, 176 )
+
+[node name="WallV41" parent="WallsVPart1" instance=ExtResource( 1 )]
+position = Vector2( 452, 288 )
+
+[node name="WallsVPart2" type="Node2D" parent="."]
+position = Vector2( 1016, 632 )
+rotation = 3.14159
+
+[node name="WallV" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 60, 64 )
+
+[node name="WallV2" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 60, 120 )
+
+[node name="WallV3" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 60, 176 )
+
+[node name="WallV4" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 116, 232 )
+
+[node name="WallV5" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 116, 176 )
+
+[node name="WallV6" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 284, 64 )
+
+[node name="WallV7" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 340, 120 )
+
+[node name="WallV8" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 396, 64 )
+
+[node name="WallV9" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 452, 120 )
+
+[node name="WallV10" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 60, 400 )
+
+[node name="WallV11" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 60, 456 )
+
+[node name="WallV12" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 60, 512 )
+
+[node name="WallV13" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 116, 400 )
+
+[node name="WallV14" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 116, 512 )
+
+[node name="WallV15" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 116, 568 )
+
+[node name="WallV16" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 508, 120 )
+
+[node name="WallV17" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 508, 176 )
+
+[node name="WallV18" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 508, 232 )
+
+[node name="WallV19" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 508, 400 )
+
+[node name="WallV20" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 508, 456 )
+
+[node name="WallV21" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 508, 512 )
+
+[node name="WallV22" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 508, 568 )
+
+[node name="WallV23" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 172, 232 )
+
+[node name="WallV24" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 172, 400 )
+
+[node name="WallV25" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 172, 456 )
+
+[node name="WallV26" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 172, 568 )
+
+[node name="WallV27" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 228, 344 )
+
+[node name="WallV28" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 228, 400 )
+
+[node name="WallV29" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 228, 512 )
+
+[node name="WallV30" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 228, 456 )
+
+[node name="WallV31" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 284, 344 )
+
+[node name="WallV32" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 284, 512 )
+
+[node name="WallV33" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 284, 456 )
+
+[node name="WallV34" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 340, 288 )
+
+[node name="WallV35" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 340, 344 )
+
+[node name="WallV36" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 340, 456 )
+
+[node name="WallV37" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 340, 512 )
+
+[node name="WallV38" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 340, 568 )
+
+[node name="WallV39" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 508, 64 )
+
+[node name="WallV40" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 452, 176 )
+
+[node name="WallV41" parent="WallsVPart2" instance=ExtResource( 1 )]
+position = Vector2( 452, 288 )
