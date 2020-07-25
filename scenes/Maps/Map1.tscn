@@ -154,6 +154,9 @@ position = Vector2( 368, 260 )
 [node name="WayH48" parent="WaysHPart1" instance=ExtResource( 4 )]
 position = Vector2( 88, 316 )
 
+[node name="WayH49" parent="WaysHPart1" instance=ExtResource( 4 )]
+position = Vector2( 480, 484 )
+
 [node name="WaysHPart2" type="Node2D" parent="."]
 position = Vector2( 1016, 632 )
 rotation = 3.14212
@@ -301,6 +304,9 @@ position = Vector2( 368, 260 )
 
 [node name="WayH48" parent="WaysHPart2" instance=ExtResource( 4 )]
 position = Vector2( 88, 316 )
+
+[node name="WayH49" parent="WaysHPart2" instance=ExtResource( 4 )]
+position = Vector2( 480.255, 483.747 )
 
 [node name="WaysVPart1" type="Node2D" parent="."]
 
@@ -700,9 +706,6 @@ position = Vector2( 424, 428 )
 [node name="WallH26" parent="WallsHPart1" instance=ExtResource( 3 )]
 position = Vector2( 480, 428 )
 
-[node name="WallH28" parent="WallsHPart1" instance=ExtResource( 3 )]
-position = Vector2( 480, 484 )
-
 [node name="WallH29" parent="WallsHPart1" instance=ExtResource( 3 )]
 position = Vector2( 424, 484 )
 
@@ -802,9 +805,6 @@ position = Vector2( 424, 428 )
 
 [node name="WallH26" parent="WallsHPart2" instance=ExtResource( 3 )]
 position = Vector2( 480, 428 )
-
-[node name="WallH28" parent="WallsHPart2" instance=ExtResource( 3 )]
-position = Vector2( 480, 484 )
 
 [node name="WallH29" parent="WallsHPart2" instance=ExtResource( 3 )]
 position = Vector2( 424, 484 )
