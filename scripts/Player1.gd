@@ -27,9 +27,9 @@ func _physics_process(delta):
 	elif input_vector.x < 0 and input_vector.y == 0:
 		anim_perso.play("DeplGauche")
 
-	if input_vector.y > 0 and input_vector.x == 0:
+	if input_vector.y > 0 :
 		anim_perso.play("DeplBas")
-	elif input_vector.y < 0 and input_vector.x == 0:
+	elif input_vector.y < 0 :
 		anim_perso.play("DeplHaut")
 		
 			
