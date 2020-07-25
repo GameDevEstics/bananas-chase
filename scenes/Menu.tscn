@@ -1,0 +1,143 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://sprites/menu/Bricks.png" type="Texture" id=1]
+[ext_resource path="res://sprites/menu/Rectangle.svg" type="Texture" id=2]
+[ext_resource path="res://sprites/menu/Monkey1.png" type="Texture" id=3]
+[ext_resource path="res://sprites/menu/Monkey2.png" type="Texture" id=4]
+[ext_resource path="res://fonts/Open_Sans/OpenSans-Bold.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://sprites/menu/Calque.svg" type="Texture" id=6]
+[ext_resource path="res://fonts/Open_Sans/OpenSans-ExtraBold.ttf" type="DynamicFontData" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 45
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.921569, 0.92549, 0.945098, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.921569, 0.92549, 0.945098, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.921569, 0.92549, 0.945098, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.921569, 0.92549, 0.945098, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 10
+corner_detail = 16
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+outline_size = 12
+outline_color = Color( 0.54902, 0.282353, 0.227451, 1 )
+font_data = ExtResource( 7 )
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Brick" type="Sprite" parent="."]
+position = Vector2( 512.01, 300.003 )
+scale = Vector2( 0.533323, 0.555551 )
+texture = ExtResource( 1 )
+
+[node name="Calque" type="Sprite" parent="."]
+position = Vector2( 512.01, 300.003 )
+scale = Vector2( 0.533, 0.556 )
+texture = ExtResource( 6 )
+
+[node name="Monkey1" type="Control" parent="."]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_left = 250.0
+margin_top = -20.0
+margin_right = 40.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="RectangleMonkey" type="Sprite" parent="Monkey1"]
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="SpriteMonkey" type="Sprite" parent="Monkey1"]
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 3 )
+
+[node name="Monkey2" type="Control" parent="."]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -250.0
+margin_top = -20.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="RectangleMonkey" type="Sprite" parent="Monkey2"]
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="SpriteMonkey" type="Sprite" parent="Monkey2"]
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 4 )
+
+[node name="Title" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -195.0
+margin_top = 28.0
+margin_right = 195.0
+margin_bottom = 63.0
+custom_fonts/font = SubResource( 1 )
+text = "BANANA'S CHASE"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -92.0
+margin_top = -116.0
+margin_right = 90.0
+margin_bottom = -26.0
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/focus = SubResource( 6 )
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.705882, 0.705882, 0.705882, 1 )
+custom_colors/font_color_hover = Color( 0.921569, 0.92549, 0.945098, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+text = "PLAY"
+__meta__ = {
+"_edit_use_anchors_": false
+}
