@@ -6,6 +6,7 @@ const FRICTION = 400
 
 # var speed = 96
 var velocity = Vector2.ZERO
+var score = 0
 
 onready var anim_perso = $AnimPerso
 
@@ -43,6 +44,13 @@ func _physics_process(delta):
 		anim_perso.play("DeplBas")
 	elif input_vector.y < 0 and not collision:
 		anim_perso.play("DeplHaut")
+		
+	if collision :
+		if "banane" in collision.collider.get_groups():
+			var banane = collision.collider
+			score += 20
+			print("Joeur2\nscore : " , score)
+			banane.queue_free()
 
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.

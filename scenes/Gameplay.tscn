@@ -1,13 +1,21 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://scenes/Maps/Map1.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scripts/Player1.gd" type="Script" id=2]
 [ext_resource path="res://scenes/Perso/Perso.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scripts/Player2.gd" type="Script" id=4]
+[ext_resource path="res://scenes/Banane/Banane.tscn" type="PackedScene" id=5]
 
 [node name="Gameplay" type="Node2D"]
 
 [node name="Map1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 4.75684, -4.75684 )
+
+[node name="Banane" parent="Map1" instance=ExtResource( 5 )]
+position = Vector2( 984.245, 405.532 )
+
+[node name="Banane2" parent="Map1" instance=ExtResource( 5 )]
+position = Vector2( 983.056, 227.151 )
 
 [node name="Player1" parent="." instance=ExtResource( 3 )]
 position = Vector2( 38, 65 )
@@ -15,6 +23,60 @@ scale = Vector2( 1.5, 1.5 )
 script = ExtResource( 2 )
 
 [node name="Player2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 988, 567 )
+position = Vector2( 981.393, 576.439 )
 scale = Vector2( 1.5, 1.5 )
 script = ExtResource( 4 )
+
+[node name="Banane" parent="." instance=ExtResource( 5 )]
+position = Vector2( 34.21, 231.903 )
+
+[node name="Banane4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 33.0875, 402.387 )
+
+[node name="Banane5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 313.418, 459.019 )
+
+[node name="Banane6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 436.554, 455.905 )
+
+[node name="Banane" parent="Banane6" instance=ExtResource( 5 )]
+position = Vector2( 336.364, 111.693 )
+
+[node name="Banane" parent="Banane6/Banane" instance=ExtResource( 5 )]
+position = Vector2( -512.982, -508.794 )
+
+[node name="Banane7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 145.409, 512.82 )
+
+[node name="Banane8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 538.06, 399.555 )
+
+[node name="Banane9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 750.432, 458.075 )
+
+[node name="Banane2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 275.478, 166.501 )
+
+[node name="Banane3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 482.4, 218.826 )
+
+[node name="Banane10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 595.374, 165.312 )
+
+[node name="Banane" parent="Banane10" instance=ExtResource( 5 )]
+position = Vector2( 84.4336, 401.952 )
+
+[node name="Banane2" parent="Banane10" instance=ExtResource( 5 )]
+position = Vector2( -249.503, -104.11 )
+
+[node name="Banane3" parent="Banane10" instance=ExtResource( 5 )]
+position = Vector2( -1.18921, -107.029 )
+
+[node name="Banane4" parent="Banane10" instance=ExtResource( 5 )]
+position = Vector2( -162.921, 398.384 )
+
+[node name="Banane11" parent="." instance=ExtResource( 5 )]
+position = Vector2( 709.538, 114.176 )
+
+[node name="Banane12" parent="." instance=ExtResource( 5 )]
+position = Vector2( 877.216, 122.5 )
