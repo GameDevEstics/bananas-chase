@@ -11,8 +11,10 @@
 
 [node name="Player1" parent="." instance=ExtResource( 3 )]
 position = Vector2( 38, 65 )
+scale = Vector2( 1.5, 1.5 )
 script = ExtResource( 2 )
 
 [node name="Player2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 988, 567 )
+scale = Vector2( 1.5, 1.5 )
 script = ExtResource( 4 )
