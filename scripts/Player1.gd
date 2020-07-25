@@ -21,26 +21,24 @@ func _physics_process(delta):
 	input_vector.y = Input.get_action_strength("p1_down") - Input.get_action_strength("p1_up")
 	
 	input_vector = input_vector.normalized()
-	
-	if input_vector.x > 0 and input_vector.y == 0:
-		anim_perso.play("DeplDroite")
-	elif input_vector.x < 0 and input_vector.y == 0:
-		anim_perso.play("DeplGauche")
-
-	if input_vector.y > 0 :
-		anim_perso.play("DeplBas")
-	elif input_vector.y < 0 :
-		anim_perso.play("DeplHaut")
-		
 			
-	if input_vector != Vector2.ZERO:
+	if input_vector != Vector2.ZERO :
 		velocity = velocity.move_toward(input_vector * MAX_SPEED, ACCELERATION * delta)
 		#velocity += input_vector * ACCELERATION * delta
 		#velocity = velocity.clamped(MAX_SPEED * delta)
 	else :
 		velocity = velocity.move_toward(Vector2.ZERO, delta * FRICTION)
-	velocity = move_and_slide(velocity)
+	var collision = move_and_collide(velocity * delta)
 	
+	if input_vector.x > 0 and input_vector.y == 0 and not collision:
+		anim_perso.play("DeplDroite")
+	elif input_vector.x < 0 and input_vector.y == 0 and not collision:
+		anim_perso.play("DeplGauche")
+
+	if input_vector.y > 0 and not collision:
+		anim_perso.play("DeplBas")
+	elif input_vector.y < 0 and not collision:
+		anim_perso.play("DeplHaut")
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
