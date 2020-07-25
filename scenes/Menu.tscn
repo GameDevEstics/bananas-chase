@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://sprites/menu/Bricks.png" type="Texture" id=1]
 [ext_resource path="res://sprites/menu/Rectangle.svg" type="Texture" id=2]
@@ -8,9 +8,29 @@
 [ext_resource path="res://sprites/menu/Calque.svg" type="Texture" id=6]
 [ext_resource path="res://fonts/Open_Sans/OpenSans-ExtraBold.ttf" type="DynamicFontData" id=7]
 
-[sub_resource type="DynamicFont" id=1]
+[sub_resource type="GDScript" id=1]
+script/source = "extends Control
+
+onready var play_button = $PlayButton
+
+func _ready():
+	pass
+
+# TODO : Lier le menu avec le gameplay
+func _on_PlayButton_pressed():
+	pass # Replace with function body.
+"
+
+[sub_resource type="DynamicFont" id=2]
 size = 45
 font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.921569, 0.92549, 0.945098, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 10
 
 [sub_resource type="StyleBoxFlat" id=4]
 bg_color = Color( 0.921569, 0.92549, 0.945098, 1 )
@@ -32,16 +52,9 @@ corner_radius_top_left = 10
 corner_radius_top_right = 10
 corner_radius_bottom_right = 50
 corner_radius_bottom_left = 10
-
-[sub_resource type="StyleBoxFlat" id=3]
-bg_color = Color( 0.921569, 0.92549, 0.945098, 1 )
-corner_radius_top_left = 10
-corner_radius_top_right = 10
-corner_radius_bottom_right = 50
-corner_radius_bottom_left = 10
 corner_detail = 16
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=7]
 size = 40
 outline_size = 12
 outline_color = Color( 0.54902, 0.282353, 0.227451, 1 )
@@ -50,6 +63,7 @@ font_data = ExtResource( 7 )
 [node name="Menu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+script = SubResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -112,7 +126,7 @@ margin_left = -195.0
 margin_top = 28.0
 margin_right = 195.0
 margin_bottom = 63.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "BANANA'S CHASE"
 align = 1
 valign = 1
@@ -120,7 +134,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Button" type="Button" parent="."]
+[node name="PlayButton" type="Button" parent="."]
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
@@ -129,11 +143,11 @@ margin_left = -92.0
 margin_top = -116.0
 margin_right = 90.0
 margin_bottom = -26.0
-custom_styles/hover = SubResource( 4 )
-custom_styles/pressed = SubResource( 5 )
-custom_styles/focus = SubResource( 6 )
-custom_styles/normal = SubResource( 3 )
-custom_fonts/font = SubResource( 2 )
+custom_styles/hover = SubResource( 3 )
+custom_styles/pressed = SubResource( 4 )
+custom_styles/focus = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+custom_fonts/font = SubResource( 7 )
 custom_colors/font_color = Color( 0.705882, 0.705882, 0.705882, 1 )
 custom_colors/font_color_hover = Color( 0.921569, 0.92549, 0.945098, 1 )
 custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
@@ -141,3 +155,4 @@ text = "PLAY"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+[connection signal="pressed" from="PlayButton" to="." method="_on_PlayButton_pressed"]
