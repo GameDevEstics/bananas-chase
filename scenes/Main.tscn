@@ -85,7 +85,6 @@ __meta__ = {
 
 [node name="MenuSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 6 )
-autoplay = true
 
 [node name="GameplaySound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
