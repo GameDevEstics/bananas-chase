@@ -8,8 +8,6 @@
 
 [node name="Map1" type="Node2D"]
 
-[node name="Map" parent="." instance=ExtResource( 2 )]
-
 [node name="WaysHPart1" type="Node2D" parent="."]
 
 [node name="WayH" parent="WaysHPart1" instance=ExtResource( 4 )]
@@ -879,27 +877,6 @@ position = Vector2( 116, 512 )
 [node name="WallV15" parent="WallsVPart1" instance=ExtResource( 1 )]
 position = Vector2( 116, 568 )
 
-[node name="WallV16" parent="WallsVPart1" instance=ExtResource( 1 )]
-position = Vector2( 508, 120 )
-
-[node name="WallV17" parent="WallsVPart1" instance=ExtResource( 1 )]
-position = Vector2( 508, 176 )
-
-[node name="WallV18" parent="WallsVPart1" instance=ExtResource( 1 )]
-position = Vector2( 508, 232 )
-
-[node name="WallV19" parent="WallsVPart1" instance=ExtResource( 1 )]
-position = Vector2( 508, 400 )
-
-[node name="WallV20" parent="WallsVPart1" instance=ExtResource( 1 )]
-position = Vector2( 508, 456 )
-
-[node name="WallV21" parent="WallsVPart1" instance=ExtResource( 1 )]
-position = Vector2( 508, 512 )
-
-[node name="WallV22" parent="WallsVPart1" instance=ExtResource( 1 )]
-position = Vector2( 508, 568 )
-
 [node name="WallV23" parent="WallsVPart1" instance=ExtResource( 1 )]
 position = Vector2( 172, 232 )
 
@@ -947,9 +924,6 @@ position = Vector2( 340, 512 )
 
 [node name="WallV38" parent="WallsVPart1" instance=ExtResource( 1 )]
 position = Vector2( 340, 568 )
-
-[node name="WallV39" parent="WallsVPart1" instance=ExtResource( 1 )]
-position = Vector2( 508, 64 )
 
 [node name="WallV40" parent="WallsVPart1" instance=ExtResource( 1 )]
 position = Vector2( 452, 176 )
@@ -1006,27 +980,6 @@ position = Vector2( 116, 512 )
 [node name="WallV15" parent="WallsVPart2" instance=ExtResource( 1 )]
 position = Vector2( 116, 568 )
 
-[node name="WallV16" parent="WallsVPart2" instance=ExtResource( 1 )]
-position = Vector2( 508, 120 )
-
-[node name="WallV17" parent="WallsVPart2" instance=ExtResource( 1 )]
-position = Vector2( 508, 176 )
-
-[node name="WallV18" parent="WallsVPart2" instance=ExtResource( 1 )]
-position = Vector2( 508, 232 )
-
-[node name="WallV19" parent="WallsVPart2" instance=ExtResource( 1 )]
-position = Vector2( 508, 400 )
-
-[node name="WallV20" parent="WallsVPart2" instance=ExtResource( 1 )]
-position = Vector2( 508, 456 )
-
-[node name="WallV21" parent="WallsVPart2" instance=ExtResource( 1 )]
-position = Vector2( 508, 512 )
-
-[node name="WallV22" parent="WallsVPart2" instance=ExtResource( 1 )]
-position = Vector2( 508, 568 )
-
 [node name="WallV23" parent="WallsVPart2" instance=ExtResource( 1 )]
 position = Vector2( 172, 232 )
 
@@ -1075,11 +1028,10 @@ position = Vector2( 340, 512 )
 [node name="WallV38" parent="WallsVPart2" instance=ExtResource( 1 )]
 position = Vector2( 340, 568 )
 
-[node name="WallV39" parent="WallsVPart2" instance=ExtResource( 1 )]
-position = Vector2( 508, 64 )
-
 [node name="WallV40" parent="WallsVPart2" instance=ExtResource( 1 )]
 position = Vector2( 452, 176 )
 
 [node name="WallV41" parent="WallsVPart2" instance=ExtResource( 1 )]
 position = Vector2( 452, 288 )
+
+[node name="Map" parent="." instance=ExtResource( 2 )]

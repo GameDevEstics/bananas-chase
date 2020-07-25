@@ -1457,5 +1457,32 @@ position = Vector2( 4, 512 )
 [node name="WallV10" parent="WallsVRight" instance=ExtResource( 3 )]
 position = Vector2( 4, 568 )
 
+[node name="WallsVCenter" type="Node2D" parent="."]
+position = Vector2( 504, 0 )
+
+[node name="WallV" parent="WallsVCenter" instance=ExtResource( 3 )]
+position = Vector2( 4, 64 )
+
+[node name="WallV2" parent="WallsVCenter" instance=ExtResource( 3 )]
+position = Vector2( 4, 120 )
+
+[node name="WallV3" parent="WallsVCenter" instance=ExtResource( 3 )]
+position = Vector2( 4, 176 )
+
+[node name="WallV4" parent="WallsVCenter" instance=ExtResource( 3 )]
+position = Vector2( 4, 232 )
+
+[node name="WallV7" parent="WallsVCenter" instance=ExtResource( 3 )]
+position = Vector2( 4, 400 )
+
+[node name="WallV8" parent="WallsVCenter" instance=ExtResource( 3 )]
+position = Vector2( 4, 456 )
+
+[node name="WallV9" parent="WallsVCenter" instance=ExtResource( 3 )]
+position = Vector2( 4, 512 )
+
+[node name="WallV10" parent="WallsVCenter" instance=ExtResource( 3 )]
+position = Vector2( 4, 568 )
+
 [node name="Way" parent="." instance=ExtResource( 1 )]
 position = Vector2( 508, 316 )
