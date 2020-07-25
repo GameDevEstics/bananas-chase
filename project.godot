@@ -17,7 +17,8 @@ _global_script_class_icons={
 
 config/name="BananasChase"
 run/main_scene="res://scenes/Gameplay.tscn"
-config/icon="res://icon.png"
+boot_splash/image="res://splash screen.png"
+config/icon="res://iconBC.png"
 
 [display]
 
